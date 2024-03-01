@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F8E017;
+}
+
+.titolo{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/859293.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  margin: 40px;
+} 
+
+h1{
+  font-family: "Fredoka", sans-serif;
+  font-size: 10rem;
+}
+
+p{
+  font-family: "Kode Mono", monospace;
+  font-size: 5rem
+}
+
+p::before{
+  background-color: black;
+  height: 4px;
+  width: 40px;
+}
+
